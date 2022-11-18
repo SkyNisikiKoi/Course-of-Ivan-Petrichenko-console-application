@@ -21,6 +21,20 @@ for (let i = 0; i < 2; i++) {
 
 }
 
+// let i = 0;
+
+// while ( i < 2 ) {
+//     i++;
+//     let movie = prompt('Один из последних просмотренных фильмов?', '');
+//     let movieScore = +prompt('На сколько оцените его?', '');
+
+//     if (movie != null && movieScore != null && movie != '' && movieScore != '' && movie.length < 50) {
+//         personalMovieDB.movies[movie] = movieScore;
+//     } else {
+//         i--
+//     }
+// }
+
 if (personalMovieDB.count < 10) {
     console.log('Просмотрено довольно мало фильмов')
 } else if (personalMovieDB.count > 10 && personalMovieDB.count < 30) {
